@@ -1,0 +1,64 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: rgb(0, 191, 255);
+}
+
+h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+}
+
+img{
+    width: 200px;
+    height:200px;
+}
+form {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Arrange form elements vertically */
+}
+
+input[type="submit"],
+button {
+  margin-top: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  color: #4CAF50;
+}
+
+
+input[type="submit"],
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #5500ff;
+}
+

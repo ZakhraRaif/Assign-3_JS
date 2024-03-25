@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="./js/script.js" defer></script>
+    <title>Let's Eat Pizza!</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Fantastique Pizza!</h1>
+            <p>
+                <span id="student_name">Rahid Jakhra</span>
+                <span id="student_id">200540928</span>
+            </p>
+        </header>
+        <form action="">
+            <div>
+                <h2>Base</h2><!--Base description: Radio will allow the user to select only one of the following.-->
+                <img src="./img/regular.jpeg" alt="Regular Pizza">
+                <input type="radio" id="regular" name="base" value="regular" checked>
+                <label for="regular">Regular</label>
+                <br>
+                <img src="./img/thin.jpeg" alt="thin">
+                <input type="radio" id="thin_crust" name="base" value="Thin Crust">
+                <label for="thin_crust">Thin Crust</label>
+                <br>
+                <img src="./img/thick.jpeg" alt="Thick">
+                <input type="radio" id="thick_crust" name="base" value="Thick Crust">
+                <label for="thick_crust">Thick Crust</label>
+                <br>
+                <img src="./img/Deep-Dish.jpeg" alt="deep_dish">
+                <input type="radio" id="deep_dish" name="base" value="Deep Dish">
+                <label for="deep_dish">Deep Dish</label>
+                <br>
+                <img src="./img/Hand-Tossed.jpeg" alt="Hand_Tossed">
+                <input type="radio" id="Hand_Tossed" name="base" value="Hand_Tossed">
+                <label for="Hand_Tossed">Hand Tossed</label>
+                <br>
+                <img src="./img/pan.jpeg" alt="pan">
+                <input type="radio" id="Pan" name="base" value="Pan">
+                <label for="Pan">Pan</label>
+                <br>
+            </div>
+            <div>
+                <h2>Size</h2><!--Size description: Radio will allow the user to select only one of the following.-->
+                <img src="./img/small.jpeg" alt="small">
+                <input type="radio" id="small_pizza" name="size" value="Small" checked>
+                <label for="small_pizza">Small</label>
+                <br>
+                <img src="./img/medium.jpeg" alt="medium">
+                <input type="radio" id="medium_pizza" name="size" value="Medium" >
+                <label for="medium_pizza">Medium</label>
+                <br>
+                <img src="./img/large.jpeg" alt="large">
+                <input type="radio" id="large_pizza" name="size" value="Large">
+                <label for="large_pizza">Large</label>
+                <br>
+                <img src="./img/xlarge.jpeg" alt="xlarge">
+                <input type="radio" id="xlarge_pizza" name="size" value="Extra Large">
+                <label for="xlarge_pizza">Extra Large</label>
+                <br>
+            </div>
+            <div>
+                <h2>Toppings</h2><!--Toppings description: Checkbox to allow the user to choose multiple choices from the following.-->
+                <input type="checkbox" id="pepperoni" name="toppings" value="Pepperoni" checked>
+                <label for="pepperoni">Pepperoni</label>
+                <br>
+                <input type="checkbox" id="mushrooms" name="toppings" value="Mushrooms">
+                <label for="mushrooms">Mushrooms</label>
+                <br>
+                <input type="checkbox" id="onions" name="toppings" value="Onions">
+                <label for="onions">Onions</label>
+                <br>
+                <input type="checkbox" id="black_olives" name="toppings" value="Black Olives">
+                <label for="black_olives">Black Olives</label>
+                <br>
+                <input type="checkbox" id="green_peppers" name="toppings" value="Green Peppers">
+                <label for="green_peppers">Green Peppers</label>
+                <br>
+                <input type="checkbox" id="sausage" name="toppings" value="Sausage">
+                <label for="sausage">Sausage</label>
+                <br>
+                <input type="checkbox" id="bacon" name="toppings" value="Bacon">
+                <label for="bacon">Bacon</label>
+                <br>
+                <input type="checkbox" id="turkey" name="toppings" value="Turkey">
+                <label for="Turkey">Turkey</label>
+                <br>
+                <input type="checkbox" id="schicken" name="toppings" value="schicken">
+                <label for="schicken">Slow-cooked Chicken</label>
+                <br>
+            </div>
+            <div>
+                <h2>Cheese</h2><!--Cheese description: Checkbox to allow the user to choose multiple choices from the following.-->
+                <input type="checkbox" id="mozzarella" name="cheese" value="Mozzarella" checked>
+                <label for="mozzarella">Mozzarella</label>
+                <br>
+                <input type="checkbox" id="Shredded" name="cheese" value="Shredded">
+                <label for="shredded">Shredded</label>
+                <br>
+                <input type="checkbox" id="Feta" name="cheese" value="Feta">
+                <label for="Feta">Feta</label>
+                <br>
+                <input type="checkbox" id="Camambert" name="cheese" value="Camambert">
+                <label for="Camambert">Camambert</label>
+                <br>
+                <input type="checkbox" id="Processed" name="Processed" value="Processed">
+                <label for="Processed">Processed</label>
+                <br>
+                <input type="checkbox" id="cheddar" name="cheese" value="Cheddar">
+                <label for="cheddar">Cheddar</label>
+                <br>
+                <input type="checkbox" id="parmesan" name="cheese" value="Parmesan">
+                <label for="parmesan">Parmesan</label>
+                <br>
+            </div>
+            <div>
+                <h2>Sauce</h2><!--Sauce description: Checkbox to allow the user to choose multiple choices from the following.-->
+            <input type="checkbox" id="Pizza_Sauce" name="sauce" value="Pizza Sauce" checked>
+            <label for="Pizza Sauce">Pizza Sauce</label>
+            <br>
+            <input type="checkbox" id="bbq" name="sauce" value="BBQ">
+            <label for="bbq">BBQ</label>
+            <br>
+            <input type="checkbox" id="garlic_alfredo" name="sauce" value="Garlic Alfredo">
+            <label for="garlic_alfredo">Garlic Alfredo</label>
+            <br>
+            <input type="checkbox" id="Ranch" name="sauce" value="Ranch">
+            <label for="Ranch">Ranch</label>
+            <br>
+            <input type="checkbox" id="Habenaro" name="sauce" value="Habenaro">
+            <label for="Habenaro">Habenaro</label>
+            <br>
+            <input type="checkbox" id="Cilantro" name="sauce" value="Cilantro">
+            <label for="Cilantro">Cilantro</label>
+            <br>
+            <input type="checkbox" id="Steak" name="sauce" value="Steak">
+            <label for="Steak">Steak</label>
+            <br>
+            <input type="checkbox" id="Chipotle" name="sauce" value="Chipotle">
+            <label for="Chipotle">Chipotle</label>
+            <br>
+            <input type="checkbox" id="Mayo" name="sauce" value="Mayo">
+            <label for="Mayo">Mayo</label>
+            <br>
+            <br>
+        </div>
+        <div>
+            <label for="quantity"> Quantity:</label> <!--This will allow the user to select the quantityof their order.-->
+            <input type="number" id="quantity" name="qnty" min="1" value="1">
+            <br>
+        </div>
+        <input type="submit" id="order" value="Order"><!--this will submit the form which then will be dislayed using JS-->
+    </form>
+</body>
+</html>
